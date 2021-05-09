@@ -2,7 +2,7 @@ $(function() {
     $(".hidden").delay(900).fadeIn(600);
 
     function endLoad () {
-        $("#load img").delay(2200).fadeOut(400);
+        $("#load img").delay(2000).fadeOut(600);
         $("#load").delay(4000).fadeOut(1000);        
     }
 
