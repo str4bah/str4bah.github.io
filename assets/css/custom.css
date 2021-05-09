@@ -8,7 +8,7 @@
 /* General */
 @font-face {
     font-family: "futura";
-        src: url("../Fonts/ParaType/futura/FTN55.otf") format("opentype");
+        src: url("../fonts/paraType/futura/ftn55.otf") format("opentype");
 }
 
 body {
