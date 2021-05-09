@@ -308,8 +308,8 @@ article, section {
     font-size: 20px;
 }
 
-.nav-item a, .nav-item a:hover, .nav-item a:visited {
-    color: rgb(63, 63, 63);
+.nav-link, .nav-link:hover, .nav-link:visited {
+    color: gray;
 }
 
 .nav-item:last-child {
