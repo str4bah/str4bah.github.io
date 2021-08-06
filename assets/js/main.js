@@ -7,6 +7,25 @@ $(function() {
     }
 
     endLoad();
+
+    var containerwidth = window.innerWidth - 100;
+
+    if (575 < window.innerWidth && window.innerWidth < 768) {
+        $(".container").css("width", containerwidth);
+    } else {
+        $(".container").css("width", "");
+    }
+    
+    window.onresize = function() {
+
+        var containerwidth = window.innerWidth - 100;
+
+        if (575 < window.innerWidth && window.innerWidth < 768) {
+            $(".container").css("width", containerwidth);
+        } else {
+            $(".container").css("width", "");
+        }
+    }
     
     $(".hero-text-left").hover(    
         function() {
