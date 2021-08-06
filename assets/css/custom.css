@@ -227,7 +227,7 @@ article, section {
             transform: translate(0, 0) !important;
 }
 
-.mission {
+.mission-items {
     background: url(../img/mission_bg.jpg);
     background-size: cover;
 }
@@ -299,10 +299,13 @@ article, section {
         left: 0;
     z-index: 2000;
     background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
 
 #load img {
-    width: 100%;
+    width: 50%;
+    padding-bottom: 100px;
 }
 
 .hidden {
@@ -442,7 +445,7 @@ article, section {
 }
 
 .mission-items {
-    padding-top: 180px;
+    padding: 180px 0 100px;
 }
 
 .mission-item {
@@ -782,6 +785,10 @@ footer ul li:last-child a {
     .hero-text i {
         display: none;
     }
+
+    #mission {
+        margin-bottom: 300px;
+    }
 }
 
 
@@ -810,7 +817,7 @@ footer ul li:last-child a {
 
     .mission-item {
         height: 150px;
-        margin-bottom: 20px;
+        margin: 0 auto 20px;
     }
 
     .mission-item h3 {
@@ -906,7 +913,7 @@ footer ul li:last-child a {
         right: -20px;
     }
 
-    .mission-items {
+    .mission-items .row {
         margin: 0 20px;
     }
 
@@ -1016,13 +1023,114 @@ footer ul li:last-child a {
 
     h1 {
         font-size: 32px;
-    }
-    
-    .title-left {
-        left: 10px;
+        margin: 0 auto 30px;
+        display: block;
     }
 
-    .title-right {
-        right: 10px;
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    
+    .title-left, .title-right {
+        position: initial;
+        padding: 5px 0;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        width: 90%;
+        text-align: center;
+    }
+
+    .mission-items {
+        padding-top: 40px;
+    }
+
+    .mission-item {
+        height: auto;
+    }
+
+    #mission {
+        margin-bottom: 360px;
+    }
+
+    .subtitle {
+        text-align: center;
+        padding-top: 0;
+    }
+
+    #aou {
+        margin-bottom: 160px;
+    }
+
+    .aou-items {
+        padding: 0 20px 260px;
+    }
+
+    .aou-item h3 {
+        width: 100%;
+    }
+    
+    .aou-exp {
+        flex-wrap: wrap;
+    }
+
+    .aou-item-right h3 {
+        text-align: right;
+    }
+
+    .aou-exp p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .aou-exp img {
+        width: 80%;
+        margin: 10px auto 15px;
+        text-align: center;
+    }
+
+    .aou-exp a {
+        margin: 0 auto;
+    }
+
+    .aou-exp a i {
+        display: none;
+    }
+
+    .more.more-donation {
+        margin-top: 60px;
+        padding: 12px 40px;
+    }
+
+    .more-donation i {
+        display: none;
+    }
+
+    .cycle img {
+        display: none;
+    }
+
+    .blog .row {
+        margin: 0 20px;
+    }
+
+    .blog-box {
+        margin-top: 40px;
+    }
+
+    footer {
+        height: auto;
+    }
+    
+    footer img {
+        width: 50%;
+    }
+
+    footer ul {
+        display: none;
     }
 }
